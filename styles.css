@@ -14,14 +14,13 @@
   position: relative;
 }
 
-.content {
+#content {
   height: 100px;
   width: 40%;
   position:absolute ;
   top: 4cm;
   left: 10%;
   font-size: 4em;
-  font-family: 'Alfa Slab One', cursive;
 }
 
 .grid {
