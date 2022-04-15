@@ -1,0 +1,68 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  width: clamp(100px, 100%, 1980px);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  place-items: top;
+  justify-content: center;
+  text-align: center;
+  align-self: auto;
+  margin: 200px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding-inline: 100px;
+  padding-top: 10px;
+}
+
+.flex-wrap {
+  display: flex;  
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.pad-left {
+  padding-left: 200px;
+}
+
+.centermodel {
+  width: 5cm;
+}
+
+/* This styles the aside container */
+#aSide {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  width: 1000px;
+  position: static;
+  top: -5cm;
+}
+
+/* This styles the 3D object inserted in the aside container */
+#aSide model-viewer {
+  height: 700px;
+  width: 1000px;
+  position: static;
+  border: black;
+  border-width: 5px;
+}
+
+.imagepara {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 1fr);
+  text-align: center;
+  justify-content: center;
+}
+
+.shiftup {
+  position:relative;
+  top: -5cm;
+}
