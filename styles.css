@@ -14,7 +14,7 @@
   position: relative;
 }
 
-#content {
+.content {
   height: 100px;
   width: 40%;
   position:absolute ;
