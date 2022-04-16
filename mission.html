@@ -22,6 +22,89 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+    /* This styles the aside container */
+#aSide {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  position: relative;
+  top: -1cm;
+}
+
+/* This styles the 3D object inserted in the aside container */
+#aSide model-viewer {
+  height: 100%;
+  width: 220%;
+  position: relative;
+}
+
+/* This styles the aside container */
+#bSide {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  position: relative;
+  top: -1cm;
+}
+
+/* This styles the 3D object inserted in the aside container */
+#bSide model-viewer {
+  height: 100%;
+  width: 200%;
+  position: relative;
+}
+
+#content {
+  height: 100px;
+  width: 40%;
+  position:absolute ;
+  top: 4cm;
+  left: 10%;
+  font-size: 3vw;
+  min-height: 30%;
+}
+
+.grid {
+  display: grid;
+  margin-top: 2em;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: repeat(auto-fit, minmax(100px, 1fr));
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  row-gap: 50px;
+  column-gap: 10px;
+}
+
+.image {
+  width: 500px;
+  max-width: 100%;
+  min-width: 50%;
+  height: auto;
+}
+
+.mission-statement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #342629;
+  width: 100%;
+  top: 5%;
+  height: 10vw;
+}
+
+.mobile {
+  padding: 2vw;
+}
+
+.wyscu {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 50px;
+  justify-content: space-between;
+}
 </style>
 
 <body style="background-color: #84DE80;">
