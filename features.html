@@ -22,22 +22,6 @@
 	@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 	@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 	/* This styles the aside container */
-#aSide {
-  display: flex;
-  justify-content: center;
-  height: 600px;
-  position: relative;
-  top: -1cm;
-}
-
-/* This styles the 3D object inserted in the aside container */
-#aSide model-viewer {
-  height: 100%;
-  width: 220%;
-  position: relative;
-}
-
-/* This styles the aside container */
 #bSide {
   display: flex;
   justify-content: center;
@@ -51,16 +35,6 @@
   height: 100%;
   width: 200%;
   position: relative;
-}
-
-#content {
-  height: 100px;
-  width: 40%;
-  position:absolute ;
-  top: 4cm;
-  left: 10%;
-  font-size: 3vw;
-  min-height: 30%;
 }
 
 .grid {
@@ -138,11 +112,6 @@
 </nav>
 
 
-
-		  <div class="mission-statement">
-            <h1 style="font-family: 'Alfa Slab One', cursive; margin-top: 2%; font-size: 3vw; color: aliceblue;" > The Features</h1>
-      </div>
-
 	  <div id="bSide" style="background-color: #342629;">
 		<model-viewer bounds="tight" enable-pan src="model.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="2" shadow-softness="0.65" min-camera-orbit="auto 0deg 303m" min-field-of-view="12deg" max-camera-orbit="auto 180deg auto" camera-orbit="-224.8deg 73.17deg auto" auto-rotate>
 			<div class="progress-bar hide" slot="progress-bar">
@@ -167,9 +136,9 @@
 
 		<!-- Footer -->
 		<footer class="page-footer font-small">
-			<div style="font-family: 'Alfa Slab One', cursive; font-size: 1vw;" class="footer-copyright text-center py-3">© 2022 Totally-Legit-I-Swear-Copyright:
+			<div style="font-family: 'Alfa Slab One', cursive; font-size: 1em;" class="footer-copyright text-center py-3">© 2022 Totally-Legit-I-Swear-Copyright:
   			<a href="/" style="font-family: 'Alfa Slab One', cursive;"> https://github.com/someonewithakeyboard</a>
-			<div style="font-family: 'Alfa Slab One', cursive;" class="footer-copyright text-center">Alfa Slab One designed by JM Solé. Use's Bootstrap and Google's Model Viewer</div>  
+			<div style="font-family: 'Alfa Slab One', cursive;" class="footer-copyright text-center">Alfa Slab One designed by JM Solé. Uses Bootstrap and Google's Model Viewer</div>  
 			</div>
   		</footer>
 </body>
